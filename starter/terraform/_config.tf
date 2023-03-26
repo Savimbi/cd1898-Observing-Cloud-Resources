@@ -1,6 +1,6 @@
 terraform {
    backend "s3" {
-     bucket = "dornabit-udacity-sre-course1-terraform"
+     bucket = "dorna-terraform"
      key    = "terraform/terraform.tfstate"
      region = "us-east-1"
    }
